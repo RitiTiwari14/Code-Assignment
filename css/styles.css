@@ -1,0 +1,52 @@
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+	border-radius: 0px !important;
+}
+
+.jumbotron {
+    padding: 30px;
+    margin-bottom: 0px  !important;
+    border-radius: 0px !important;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 2.1428571435;
+    color: inherit;
+    background-color: #f8f8f8;
+}
+
+header div
+{
+    height: 45px;
+    margin-top: 3%;
+    border-bottom: 1px solid #DAD6D6;
+    margin-bottom: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 3%;
+}
+
+.navbar
+{
+	width: 58.1%;
+    margin: 0 auto;
+    border-radius: 0px !important;
+}
+
+.noteWritingArea
+{
+	height: 542px !important;
+    width: 100% !important;    
+    resize: none;
+}
+
+footer
+{
+	background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+
+footer p
+{
+	    text-align: center;
+}

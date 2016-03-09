@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <title>WDTables Notebook</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body> 
+    <div class="navbar navbar-default">
+      <div class="container">
+        <header><div>WD Tables Systems - Notebook</div></header>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
+          <li><a href="#">Page 4</a></li>          
+          <li><a href="#">Page 5</a></li>
+          <a class="navbar-brand" href="#"> + </a>        
+        </ul>
+      </div>
+    </div>
+
+    <div class="container">     
+      <div class="jumbotron text-center">
+        <textarea id="WritingArea" class="noteWritingArea" ng-model ="pageText" ng-keyup="savePagetext()" ></textarea>
+      </div>  
+      <footer> 
+      <p>Notebook @ 2016 - Created by: Riti Tiwari</p>
+        </footer>   
+    </div>
+  
+	   <!-- script references -->
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
